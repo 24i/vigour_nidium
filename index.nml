@@ -1,0 +1,10 @@
+<application html5="true">
+    <meta>
+        <title>🐗🐗🐗🐗🐗</title>
+        <viewport>375x1667</viewport>
+        <identifier>com.nidium.app</identifier>
+    </meta>
+    <assets>
+        <script src="./dist/index.browser.inline.js" />
+    </assets>
+</application>
