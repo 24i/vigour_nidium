@@ -29,14 +29,16 @@ const $3230953054_app = $215521817.render({
     list: {
       $: 'items.$any',
       style: {
+        // padding: '100px',
         border: '1px solid blue',
-        padding: '100px'
+        height: '500px',
+        width: '400px',
+        // overflow: 'hidden'
       },
       props: {
        default: {
         style: {
           top: 20,
-          // height: 80,
           opacity: 0.5,
           border: '2px solid red',
           textAlign: 'center'
@@ -53,3 +55,4 @@ console.log('???', $3230953054_app.position)
 
 document.canvas.add($3230953054_app)
 
+document.showFPS(true)

@@ -3,7 +3,7 @@ var bla = true
 
 const items = []
 
-var i = 100
+var i = 5
 while (i--) {
   items.push({
     title: i
